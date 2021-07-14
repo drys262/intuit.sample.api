@@ -1,0 +1,10 @@
+{
+  "colors": true,
+  "exit": true,
+  "recursive": true,
+  "bail": true,
+  "timeout": "1m",
+  "require": ["ts-node/register/transpile-only", "tsconfig-paths/register"],
+  "spec": "test/**/*.spec.ts",
+  "file": "test/integration/common.ts"
+}

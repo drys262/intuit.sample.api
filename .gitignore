@@ -1,0 +1,11 @@
+node_modules/
+build/
+.vscode/
+coverage/
+.nyc_output/
+.env
+certs/
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
